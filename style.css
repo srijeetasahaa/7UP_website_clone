@@ -1,0 +1,369 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(0, 158, 95);
+    width: 100%;
+    height: 70px;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000;
+}
+
+.leftnav{
+    width: 20%;
+    height: 20px;
+    position: fixed;
+    left: 20px;
+}
+
+.rightnav ul{
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    right: 20px;
+}
+
+.rightnav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0; 
+}
+
+.rightnav ul li {
+    margin-top: 20px; 
+}
+
+.nav-item {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 800;  
+    color: white;
+    font-size: 20px;
+    margin: 30px 10px 10px 10px; 
+}
+
+.nav-item:hover{
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.oneleft img{
+    width: 100%;
+    margin-top: 200px;
+}
+
+.oneleft h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 800;  
+    color: rgb(0, 158, 95);
+    font-size: 30px;
+    text-align: center;
+    margin-left: 19px;
+}
+
+.explore {
+    border: 3px solid rgb(0, 158, 95);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.explore h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 800;  
+    color: rgb(0, 158, 95);
+    font-size: 20px;
+    margin: 0; 
+}
+
+.oneright{
+    display: flex;
+    align-items: center;
+}
+
+.play img{
+    text-align: right;
+    width: 1500px;
+    height: 800px;
+    margin-top: 0%;
+}
+
+.oneleft{
+    display: inline-flex;
+} 
+
+.two img{
+    width: 120%;
+    display: inline;
+}
+
+.two{
+    display: inline-block;
+    position: relative;
+}
+
+.two h2{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: #fff;
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 900;  
+    font-size: 65px;
+    margin: 0;
+}
+
+.two p{
+    position: absolute;
+    top: 335px;
+    left: 100px;
+    color: #fff;
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 520;  
+    font-size: 30px;
+    margin: 0;
+}
+
+.two h6{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: #fff;
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 520;  
+    font-size: 30px;
+    margin: 0;
+}
+
+.two h3{
+    border: 3px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 70px;
+    background-color: #fff;
+    position: absolute;
+    top: 410px;
+    left: 0;
+    color: rgb(0, 158, 95);
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 750;  
+    font-size: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.cocktail{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/module_cocktail.jpg);
+    background-attachment: fixed;
+}
+
+.cocktail-button p{
+    color: #fff;
+    border: 2px solid rgb(254, 88, 135);
+    background-color: rgb(254, 88, 135);
+    width: 310px;
+    height: 66px;
+    font-weight: 800;
+    font-size: 27px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    transition: width 0.3s ease, height 0.3s ease, font-size 0.3s ease;
+}
+
+.cocktail-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.cocktail-button p:hover{
+    width: 350px;
+    height: 72px;
+    font-size: 30px;
+}
+
+.cooking-recipe{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/module_cooking.jpg);
+    background-attachment: fixed;
+}
+
+.cooking-recipe-button p{
+    color: #fff;
+    border: 2px solid #6ba13f;
+    background-color: #6ba13f;
+    width: 310px;
+    height: 66px;
+    font-weight: 800;
+    font-size: 27px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    transition: width 0.3s ease, height 0.3s ease, font-size 0.3s ease;
+}
+
+.cooking-recipe-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.cooking-recipe-button p:hover{
+    width: 350px;
+    height: 72px;
+    font-size: 30px;
+}
+
+.all-recipe{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/module_seeall.jpg);
+    background-attachment: fixed;
+}
+
+.all-recipe-button p{
+    color: #fff;
+    border: 2px solid #c064ac;
+    background-color: #c064ac;
+    width: 310px;
+    height: 66px;
+    font-weight: 800;
+    font-size: 27px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 23px;
+    transition: width 0.3s ease, height 0.3s ease, font-size 0.3s ease;
+}
+
+.all-recipe-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.all-recipe-button p:hover{
+    width: 350px;
+    height: 72px;
+    font-size: 30px;
+}
+
+.ss img{
+    width: 100%;
+    height: 110%;
+}
+
+.footer img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer2{
+    border: #fff none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1100px;
+    height: 10px;
+    background-color: #ffffffc2;
+    padding-bottom: 150px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    position: relative;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.facebook img{
+    width: 40px;
+    height: 40px;
+    margin-left: 400px;
+}
+
+.pinterest img{
+    width: 30px;
+    height: 30px;
+}
+
+.instagram img{
+    width: 30px;
+    height: 30px;
+}
+
+.twitter img{
+    width: 30px;
+    height: 30px;
+}
+
+.youtube img{
+    width: 30px;
+    height: 30px;
+}
+
+.socials li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.points p{
+    color: rgb(75, 75, 75);
+}
+
+.points li{
+    display: inline-block;
+    margin: 13px;
+    font-size: 15px;
+}
+
+.copyrightline {
+    width: 100%;
+    text-align: center;
+}
+
+.copyrightline p {
+    color: rgb(75, 75, 75);
+    font-size: 15px;
+    display: inline; 
+}
+
+
